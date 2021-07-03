@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended: true}));
 
-mongoose.connect(config.MONGODB_URL || 'mongodb://localhost/ella-crafts', {
+mongoose.connect(config.MONGODB_URL || 'mongodb://localhost/ella-crafts-ecom', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
