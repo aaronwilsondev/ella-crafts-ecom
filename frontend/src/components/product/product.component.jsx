@@ -15,7 +15,7 @@ const {product} = props
             </Link>
             <div className="card-body">
               <Link className="product-title" to={`/product/${product._id}`}>
-                <h2>{product.name}</h2>
+                <h2>{product.name.substring(0,25)}...</h2>
               </Link>
               <h2>{product.size}</h2>
               <div className="price">
